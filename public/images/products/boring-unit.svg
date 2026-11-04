@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="buGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#475569"/><stop offset="50%" stop-color="#e2e8f0"/><stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="#f8fafc" rx="12"/>
+  <!-- Modular Arbor -->
+  <polygon points="60,110 140,125 140,175 60,190" fill="#334155" stroke="#0f172a" stroke-width="2"/>
+  <!-- Micrometer Dial Body -->
+  <rect x="140" y="115" width="85" height="70" fill="url(#buGrad)" stroke="#1e293b" stroke-width="2" rx="4"/>
+  <!-- Vernier Scale Lines -->
+  <line x1="160" y1="125" x2="160" y2="140" stroke="#0f172a" stroke-width="2"/>
+  <line x1="170" y1="125" x2="170" y2="135" stroke="#0f172a" stroke-width="1"/>
+  <line x1="180" y1="125" x2="180" y2="140" stroke="#0f172a" stroke-width="2"/>
+  <line x1="190" y1="125" x2="190" y2="135" stroke="#0f172a" stroke-width="1"/>
+  <line x1="200" y1="125" x2="200" y2="140" stroke="#0f172a" stroke-width="2"/>
+  <text x="180" y="160" font-size="10" fill="#b91c1c" font-weight="bold" font-family="monospace" text-anchor="middle">0.002mm</text>
+  <!-- Boring Bar Cartridge -->
+  <rect x="225" y="135" width="80" height="30" fill="#64748b" stroke="#1e293b" stroke-width="2"/>
+  <polygon points="305,140 325,140 325,160 305,160" fill="#fbbf24" stroke="#78350f" stroke-width="1.5"/>
+  <rect x="20" y="250" width="150" height="28" rx="6" fill="#10243a"/>
+  <text x="95" y="268" fill="#f8fafc" font-size="11" font-weight="bold" font-family="sans-serif" text-anchor="middle">MICRO-VERNIER HEAD</text>
+  <rect x="250" y="250" width="130" height="28" rx="6" fill="#f28c28"/>
+  <text x="315" y="268" fill="#ffffff" font-size="11" font-weight="bold" font-family="sans-serif" text-anchor="middle">IT6 ACCURACY</text>
+</svg>

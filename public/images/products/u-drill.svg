@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="udMetal" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#334155"/><stop offset="30%" stop-color="#cbd5e1"/><stop offset="70%" stop-color="#64748b"/><stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="udGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ea580c"/><stop offset="60%" stop-color="#fbbf24"/><stop offset="100%" stop-color="#7c2d12"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="#f8fafc" rx="12"/>
+  <!-- Shank with DIN 9766 flat -->
+  <rect x="50" y="115" width="130" height="70" fill="url(#udMetal)" stroke="#1e293b" stroke-width="2" rx="4"/>
+  <rect x="90" y="115" width="35" height="15" fill="#1e293b"/>
+  <!-- Fluted Drill Body with helical twist -->
+  <path d="M180 120 L310 120 L335 150 L310 180 L180 180 Z" fill="url(#udMetal)" stroke="#1e293b" stroke-width="2"/>
+  <path d="M180 135 Q 240 170 310 135" fill="none" stroke="#1e293b" stroke-width="4"/>
+  <path d="M180 165 Q 240 130 310 165" fill="none" stroke="#1e293b" stroke-width="4"/>
+  <!-- Peripheral insert & Central insert -->
+  <polygon points="310,120 330,120 330,140 310,135" fill="url(#udGold)" stroke="#78350f" stroke-width="1.5"/>
+  <polygon points="318,150 335,150 335,170 318,170" fill="url(#udGold)" stroke="#78350f" stroke-width="1.5"/>
+  <!-- Internal coolant streams -->
+  <circle cx="328" cy="138" r="3.5" fill="#0284c7"/>
+  <circle cx="328" cy="162" r="3.5" fill="#0284c7"/>
+  <rect x="20" y="250" width="140" height="28" rx="6" fill="#10243a"/>
+  <text x="90" y="268" fill="#f8fafc" font-size="11" font-weight="bold" font-family="sans-serif" text-anchor="middle">MT-UD 3D/5D DRILL</text>
+  <rect x="240" y="250" width="140" height="28" rx="6" fill="#0d9488"/>
+  <text x="310" y="268" fill="#ffffff" font-size="11" font-weight="bold" font-family="sans-serif" text-anchor="middle">Ø14 TO Ø60 MM</text>
+</svg>

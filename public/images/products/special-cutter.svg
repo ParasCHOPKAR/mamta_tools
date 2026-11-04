@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="specGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#334155"/><stop offset="50%" stop-color="#94a3b8"/><stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="#f8fafc" rx="12"/>
+  <!-- Multi-step body: Shank -> Step 1 (bore) -> Step 2 (chamfer) -> Step 3 (face) -->
+  <rect x="40" y="125" width="100" height="50" fill="url(#specGrad)" stroke="#1e293b" stroke-width="2"/>
+  <polygon points="140,110 210,110 210,190 140,190" fill="url(#specGrad)" stroke="#1e293b" stroke-width="2"/>
+  <polygon points="210,95 280,95 280,205 210,205" fill="url(#specGrad)" stroke="#1e293b" stroke-width="2"/>
+  <!-- Insert 1 (Pilot step) -->
+  <rect x="200" y="105" width="15" height="15" fill="#f59e0b" stroke="#78350f" stroke-width="1"/>
+  <!-- Insert 2 (Chamfer 45) -->
+  <polygon points="270,92 285,92 285,110 270,105" fill="#f59e0b" stroke="#78350f" stroke-width="1"/>
+  <!-- Insert 3 (Facing) -->
+  <polygon points="270,190 285,190 285,208 270,203" fill="#f59e0b" stroke="#78350f" stroke-width="1"/>
+  <rect x="20" y="250" width="160" height="28" rx="6" fill="#10243a"/>
+  <text x="100" y="268" fill="#f8fafc" font-size="11" font-weight="bold" font-family="sans-serif" text-anchor="middle">CUSTOM MULTI-STEP</text>
+  <rect x="240" y="250" width="140" height="28" rx="6" fill="#f28c28"/>
+  <text x="310" y="268" fill="#ffffff" font-size="11" font-weight="bold" font-family="sans-serif" text-anchor="middle">CYCLE TIME -60%</text>
+</svg>

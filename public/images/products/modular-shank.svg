@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="msCarbide" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/><stop offset="40%" stop-color="#475569"/><stop offset="70%" stop-color="#334155"/><stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="#f8fafc" rx="12"/>
+  <!-- Carbide body -->
+  <rect x="50" y="125" width="230" height="50" fill="url(#msCarbide)" stroke="#0f172a" stroke-width="2" rx="3"/>
+  <!-- Threaded Coupling Pilot -->
+  <rect x="280" y="132" width="25" height="36" fill="#94a3b8" stroke="#0f172a" stroke-width="1.5"/>
+  <line x1="285" y1="132" x2="285" y2="168" stroke="#475569" stroke-width="2"/>
+  <line x1="292" y1="132" x2="292" y2="168" stroke="#475569" stroke-width="2"/>
+  <line x1="299" y1="132" x2="299" y2="168" stroke="#475569" stroke-width="2"/>
+  <!-- Modular Cutter Head (Screw-in) -->
+  <polygon points="305,122 345,130 345,170 305,178" fill="#e2e8f0" stroke="#0f172a" stroke-width="2"/>
+  <polygon points="335,128 350,136 345,150 330,145" fill="#f59e0b" stroke="#78350f" stroke-width="1.5"/>
+  <rect x="20" y="250" width="160" height="28" rx="6" fill="#10243a"/>
+  <text x="100" y="268" fill="#f8fafc" font-size="11" font-weight="bold" font-family="sans-serif" text-anchor="middle">SOLID CARBIDE SHANK</text>
+  <rect x="250" y="250" width="130" height="28" rx="6" fill="#0d9488"/>
+  <text x="315" y="268" fill="#ffffff" font-size="11" font-weight="bold" font-family="sans-serif" text-anchor="middle">OVERHANG UP TO 8xD</text>
+</svg>

@@ -1,0 +1,462 @@
+[
+  {
+    "id": "face-milling-cutter",
+    "slug": "face-milling-cutter",
+    "name": "Face Milling Cutters",
+    "headline": "High-Performance 45° & 90° Indexable Face Mills for Heavy Metal Removal",
+    "description": "Industrial face mill cutter bodies engineered in Pune for roughing, squaring, and finishing MS, EN steels, alloy steel, and cast iron on CNCs and VMCs.",
+    "metaDescription": "Exporter & Manufacturer of Face Milling Cutter - Face Milling Cutters, SNMX-12 KORLOY FACE MILL CUTTER offered by Mamta Tools, Pune, Maharashtra.",
+    "iconName": "Disc",
+    "image": "/images/products/face-milling-cutter-100mm-en-steel/main.jpg",
+    "productCount": 7,
+    "keyFeatures": [
+      "Heavy-duty EN steel & hardened tool steel bodies",
+      "Square end & 45° / 90° approach geometries",
+      "Vibration-free surface finishing on large baseplates",
+      "High MRR with indexable carbide inserts"
+    ],
+    "applications": [
+      "Heavy machine tool base plates",
+      "Engine blocks & cylinder heads",
+      "Fabrication weldments & face squaring",
+      "Die mold surface leveling"
+    ]
+  },
+  {
+    "id": "indexable-shoulder-mill-cutter-endmill-cutter",
+    "slug": "indexable-shoulder-mill-cutter-endmill-cutter",
+    "name": "Indexable Shoulder Milling Cutters & End Mills",
+    "headline": "Precision 90° True Shoulder End Mills for Slotting & Pocketing",
+    "description": "Indexable end mill cutter bodies compatible with APMT 1135, Kyocera LOMU-1003, and ZCC inserts for chatter-free slotting and step profiling.",
+    "metaDescription": "Exporter & Manufacturer of Indexable Shoulder Mill Cutter Endmill Cutter - Indexable Shoulder Milling Cutter (End Mill Cutter), Indexable Shoulder Milling Cutter (End mill cutter), Indexable Shoulder Milling Cutter ( End mill cutter ) and APMT 1135 Indexable End Mill Cutter offered by Mamta Tools, Pune, Maharashtra.",
+    "iconName": "Wrench",
+    "image": "/images/products/indexable-shoulder-milling-cutter-25mm/main.jpg",
+    "productCount": 6,
+    "keyFeatures": [
+      "True 90-degree square shoulder milling capability",
+      "Differential flute pitch for harmonic damping",
+      "Available in shank diameters Ø16, Ø20, Ø25, Ø32, Ø40mm",
+      "Dual flute and 3-flute high chip pocket clearances"
+    ],
+    "applications": [
+      "Die cavity roughing & pocket milling",
+      "Step profiling & keyway milling",
+      "Deep narrow slotting",
+      "Aerospace structural machining"
+    ]
+  },
+  {
+    "id": "milling-cutter",
+    "slug": "milling-cutter",
+    "name": "Corner Milling Cutters",
+    "headline": "Economical Corner-Index Cutters Utilizing APMT & CNMG Turning Inserts",
+    "description": "Specialized milling cutter bodies engineered to utilize standard APMT and unused corners of CNMG inserts, drastically slashing shop tooling costs.",
+    "metaDescription": "Exporter & Manufacturer of Milling Cutter - APMT Unused Corner Milling Cutter, Cnmg Unused Corner Milling Cutters offered by Mamta Tools, Pune, Maharashtra.",
+    "iconName": "Cpu",
+    "image": "/images/products/apmt-unused-corner-milling-cutter/main.jpg",
+    "productCount": 6,
+    "keyFeatures": [
+      "Repurposes unused corners of turning inserts (CNMG / WNMG)",
+      "Hardened EN steel bodies for high shear strength",
+      "Economical per-edge machining cost",
+      "Quick insert indexing with secure Torx screw clamp"
+    ],
+    "applications": [
+      "General machine shop rough milling",
+      "Weld preparation beveling",
+      "Cost-sensitive batch face milling",
+      "Plate edge squaring"
+    ]
+  },
+  {
+    "id": "boring-head",
+    "slug": "boring-head",
+    "name": "Boring Heads & Boring Units",
+    "headline": "Modular Rough & Vernier-Adjustable Finish Boring Heads",
+    "description": "High-accuracy hole finishing down to IT6 tolerance with graduated dial micro-vernier adjustment and modular CKB / shank connections.",
+    "metaDescription": "Exporter & Manufacturer of Boring Head - Modular Rough Boring Head, Modular Finish Boring Head offered by Mamta Tools, Pune, Maharashtra.",
+    "iconName": "Target",
+    "image": "/images/products/modular-rough-boring-head/main.jpg",
+    "productCount": 6,
+    "keyFeatures": [
+      "Graduated micro-vernier dial for 0.002mm diametrical adjustments",
+      "Balanced twin-cutter rough boring design",
+      "Modular connection compatible with standard toolholders",
+      "Internal vibration damping mechanism"
+    ],
+    "applications": [
+      "Engine cylinder liners",
+      "Bearing housing bores",
+      "Hydraulic cylinder barrels",
+      "Gearbox precision journal seating"
+    ]
+  },
+  {
+    "id": "high-feed-milling-cutter",
+    "slug": "high-feed-milling-cutter",
+    "name": "High Feed Milling Cutters",
+    "headline": "Extreme Material Removal Rate (MRR) with Low Radial Cutting Forces",
+    "description": "Shallow depth of cut, ultra-high table feed solutions utilizing chip thinning principles to slash machining cycle times by up to 300%.",
+    "metaDescription": "Exporter & Manufacturer of High Feed Milling Cutter - High Feed Face Milling Cutter offered by Mamta Tools, Pune, Maharashtra.",
+    "iconName": "Zap",
+    "image": "/images/products/high-feed-milling-cutter-dia-50/main.jpg",
+    "productCount": 6,
+    "keyFeatures": [
+      "Chip thinning technology redirecting cutting forces axially",
+      "Allows long overhang without deflection or chatter",
+      "Available in Ø50mm up to Ø160mm shell mill bodies",
+      "Multi-edge economical insert geometry"
+    ],
+    "applications": [
+      "Deep cavity mold manufacturing",
+      "Hardened steel die roughing",
+      "Large turbine blade roots",
+      "Automotive transmission cases"
+    ]
+  },
+  {
+    "id": "t-slot-cutter",
+    "slug": "t-slot-cutter",
+    "name": "T-Slot Milling Cutters",
+    "headline": "Indexable T-Slot Cutters for Machine Tool Tables & Clamping Tracks",
+    "description": "Robust indexable T-slot cutters designed for single-setup machining of DIN and ANSI T-slots with high rigidity and smooth chip clearance.",
+    "metaDescription": "Exporter & Manufacturer of T Slot Cutter - Indexable T-Slot Milling Cutter offered by Mamta Tools, Pune, Maharashtra.",
+    "iconName": "Layers",
+    "image": "/images/products/indexable-t-slot-milling-cutter/main.jpg",
+    "productCount": 6,
+    "keyFeatures": [
+      "Pre-balanced cutter bodies for smooth side and under-cutting",
+      "Through-coolant delivery to cutting edges",
+      "Rigid mounting preventing shank taper twist",
+      "Indexable insert pockets for fast changeover"
+    ],
+    "applications": [
+      "Machine tool worktables & sub-plates",
+      "Fixture base plates",
+      "Rail guided tooling slides",
+      "Hydraulic press bed slots"
+    ]
+  },
+  {
+    "id": "core-drills",
+    "slug": "core-drills",
+    "name": "Indexable Core Drills",
+    "headline": "High-Performance Core Drills for Enlarging & Truing Cored Holes",
+    "description": "Multi-flute indexable core drills for rapid enlarging of existing flame-cut, pre-drilled, or casting holes without runout or wander.",
+    "metaDescription": "Exporter & Manufacturer of Core Drills - Indexable Core Drill offered by Mamta Tools, Pune, Maharashtra.",
+    "iconName": "Compass",
+    "image": "/images/products/indexable-core-drill/main.jpg",
+    "productCount": 6,
+    "keyFeatures": [
+      "Straight shank & Morse taper indexable mounting",
+      "Multiple cutting teeth for balanced hole opening",
+      "Heavy flute gullets for rapid chip extraction",
+      "Hardened EN steel construction"
+    ],
+    "applications": [
+      "Cored hole enlargement in cast iron",
+      "Tube sheet manufacturing",
+      "Heavy fabrication bolt hole enlarging",
+      "Pump casing bore roughing"
+    ]
+  },
+  {
+    "id": "ruffer-cutter",
+    "slug": "ruffer-cutter",
+    "name": "Roughing Cutters (Ruffer Cutters)",
+    "headline": "Heavy Metal Removal Wave-Edge & Serrated Roughing Cutters",
+    "description": "Engineered for maximum chip load during initial roughing of large billets, structural forgings, and heavy plate surfaces.",
+    "metaDescription": "Exporter & Manufacturer of Ruffer Cutter - Indexable Roughing Cutter offered by Mamta Tools, Pune, Maharashtra.",
+    "iconName": "Wrench",
+    "image": "/images/products/indexable-roughing-cutter-ruffer/main.jpg",
+    "productCount": 6,
+    "keyFeatures": [
+      "Serrated chip-breaking geometry lowers spindle power requirements",
+      "Alloy tool steel hardened to 50 HRC",
+      "Accommodates high feed rates in tough steels",
+      "Through-coolant design"
+    ],
+    "applications": [
+      "Heavy die roughing",
+      "Shipbuilding structural components",
+      "Forging flash removal",
+      "Large weld bevel roughing"
+    ]
+  },
+  {
+    "id": "modular-shank",
+    "slug": "modular-shank",
+    "name": "Modular Shanks & Extensions",
+    "headline": "Carbide & Heavy Metal Anti-Vibration Modular Tool Shanks",
+    "description": "High-rigidity modular extensions with threaded couplings (M8-M16) designed for deep reach and long overhang milling with zero chatter.",
+    "metaDescription": "Exporter & Manufacturer of Modular Shank - Modular Shank / Modular Extension offered by Mamta Tools, Pune, Maharashtra.",
+    "iconName": "Layers",
+    "image": "/images/products/modular-shank-modular-extension/main.jpg",
+    "productCount": 6,
+    "keyFeatures": [
+      "High elastic modulus material for extreme vibration resistance",
+      "Precision ground pilot and shoulder seating",
+      "Available in lengths 160mm, 200mm, 250mm, 300mm",
+      "Through-shank high pressure coolant channel"
+    ],
+    "applications": [
+      "Deep cavity die & mold milling",
+      "Deep pocket ribs in aerospace frames",
+      "Internal boss facing",
+      "Narrow slot deep reach"
+    ]
+  },
+  {
+    "id": "modular-cutter",
+    "slug": "modular-cutter",
+    "name": "Modular Milling Cutters",
+    "headline": "Interchangeable Screw-Fit Modular Milling Heads",
+    "description": "Quick-swap threaded milling cutter heads compatible with modular steel and solid carbide extension shanks for flexible shop tooling setups.",
+    "metaDescription": "Exporter & Manufacturer of Modular Cutter - Indexable Modular Cutter offered by Mamta Tools, Pune, Maharashtra.",
+    "iconName": "Wrench",
+    "image": "/images/products/indexable-modular-cutter-head/main.jpg",
+    "productCount": 6,
+    "keyFeatures": [
+      "Standard threaded connections for fast head swap",
+      "Compact head design for multi-axis clearance",
+      "Compatible with industry-standard indexable inserts",
+      "Hardened alloy body for extended life"
+    ],
+    "applications": [
+      "5-axis simultaneous mold contouring",
+      "Deep pocketing",
+      "Job-shop versatile setup tooling",
+      "Complex internal surfaces"
+    ]
+  },
+  {
+    "id": "ball-nose-cutter",
+    "slug": "ball-nose-cutter",
+    "name": "Ball Nose Cutters",
+    "headline": "Indexable Ball Nose End Mills for 3D Profiling & Contouring",
+    "description": "Precision hemispherical indexable milling cutters engineered for 3D contouring, die sinking, fillet radii, and sculpted surface finishing.",
+    "metaDescription": "Exporter & Manufacturer of Ball Nose Cutter - Indexable Ball Cutters offered by Mamta Tools, Pune, Maharashtra.",
+    "iconName": "Compass",
+    "image": "/images/products/indexable-ball-nose-cutters/main.jpg",
+    "productCount": 6,
+    "keyFeatures": [
+      "True spherical profile accuracy",
+      "2-flute indexable insert geometry",
+      "Rigid tool body for smooth surface finish",
+      "Excellent chip evacuation in deep contour cuts"
+    ],
+    "applications": [
+      "Die casting mold cavities",
+      "Plastic injection molds",
+      "Turbine blade aerodynamic surfaces",
+      "Automotive stamping dies"
+    ]
+  },
+  {
+    "id": "side-and-face-cutter",
+    "slug": "side-and-face-cutter",
+    "name": "Side and Face Milling Cutters",
+    "headline": "Heavy-Duty Indexable Disc Cutters for Deep Slotting & Straddle Milling",
+    "description": "Bore-mounted indexable disc cutters designed for deep slotting, parting, grooving, and simultaneous bilateral face milling operations.",
+    "metaDescription": "Exporter & Manufacturer of Side And Face Cutter - Indexabale Side and Face Milling Cutter offered by Mamta Tools, Pune, Maharashtra.",
+    "iconName": "Disc",
+    "image": "/images/products/indexable-side-and-face-milling-cutter/main.jpg",
+    "productCount": 6,
+    "keyFeatures": [
+      "Staggered tooth indexable design balances lateral forces",
+      "Standard bore mounting (Ø27mm - Ø40mm)",
+      "Heavy-duty EN steel body construction",
+      "High depth-of-cut capability"
+    ],
+    "applications": [
+      "Deep keyways and drive slots",
+      "Straddle milling of connecting rods",
+      "Spline shaft slotting",
+      "Structural beam separation grooves"
+    ]
+  },
+  {
+    "id": "profile-milling-cutter",
+    "slug": "profile-milling-cutter",
+    "name": "Profile Milling Cutters",
+    "headline": "Custom Form Cutters for Complex 3D Contours & Radius Grooves",
+    "description": "Engineered profile milling cutters (including 52-R6-22 ZCC series) designed for dedicated contour generation in a single machine pass.",
+    "metaDescription": "Exporter & Manufacturer of Profile Milling Cutter - 52-R6-22-ZCC PROFILE MILLING CUTTER offered by Mamta Tools, Pune, Maharashtra.",
+    "iconName": "Cpu",
+    "image": "/images/products/profile-milling-cutter-52-r6-zcc/main.jpg",
+    "productCount": 6,
+    "keyFeatures": [
+      "4-flute design with precision ground radius geometry",
+      "EN steel body hardened for industrial endurance",
+      "Pre-balanced for medium to high spindle speeds",
+      "Reduces multi-pass finishing cycles into a single pass"
+    ],
+    "applications": [
+      "Turbine rotor blade root slots",
+      "Automotive steering linkage grooves",
+      "Rail switch profiling",
+      "Custom hydraulic manifold profiles"
+    ]
+  },
+  {
+    "id": "dovetail-cutter",
+    "slug": "dovetail-cutter",
+    "name": "Dovetail Cutters",
+    "headline": "Precision 45° & 60° Indexable Dovetail Guideway Cutters",
+    "description": "Indexable dovetail cutters engineered for machining machine tool slideways, gibs, and precision slide assemblies with exact angular tolerances.",
+    "metaDescription": "Exporter & Manufacturer of Dovetail Cutter - Indexable Dovetail Cutter offered by Mamta Tools, Pune, Maharashtra.",
+    "iconName": "Layers",
+    "image": "/images/products/indexable-dovetail-cutter/main.png",
+    "productCount": 6,
+    "keyFeatures": [
+      "Precision ground angular pockets (45° and 60°)",
+      "Multi-tooth indexable insert layout",
+      "Through-coolant delivery to undercuts",
+      "Rigid mounting prevents deflection on steep angles"
+    ],
+    "applications": [
+      "Machine tool guideways & slides",
+      "Quick-change tool post dovetails",
+      "Linear guide clamping rails",
+      "Fixture indexing rails"
+    ]
+  },
+  {
+    "id": "u-drill",
+    "slug": "u-drill",
+    "name": "U-Drills (Indexable Drills)",
+    "headline": "High-Speed Indexable Insert Drills from 2D to 5D",
+    "description": "Indexable drill bodies with internal and peripheral SPMG carbide inserts for high penetration rate hole drilling without pre-spotting.",
+    "metaDescription": "Exporter & Manufacturer of U DRILL - Indexable U Drills offered by Mamta Tools, Pune, Maharashtra.",
+    "iconName": "Compass",
+    "image": "/images/products/indexable-u-drills-spmg/main.jpg",
+    "productCount": 6,
+    "keyFeatures": [
+      "High-pressure helical through-coolant flutes",
+      "Balanced cutting force geometry eliminates drill wandering",
+      "Utilizes economical 4-corner SPMG indexable inserts",
+      "Suitable for drilling solid steel, stainless, and cast iron"
+    ],
+    "applications": [
+      "Tube sheet drilling",
+      "Hydraulic block port drilling",
+      "Flange bolt holes",
+      "Automotive hub and gear blank holes"
+    ]
+  },
+  {
+    "id": "ckb-extension",
+    "slug": "ckb-extension",
+    "name": "CKB Boring Unit Extensions",
+    "headline": "Modular CKB Extension Adapters for Extended Reach Boring",
+    "description": "Precision-machined CKB system extensions designed to extend the reach of rough and finish boring heads into deep bores with minimal deflection.",
+    "metaDescription": "Exporter & Manufacturer of CKB Extension - CKB Boring Unit Extension offered by Mamta Tools, Pune, Maharashtra.",
+    "iconName": "Layers",
+    "image": "/images/products/ckb-boring-unit-extension/main.jpg",
+    "productCount": 6,
+    "keyFeatures": [
+      "Precision CKB modular coupling with radial locking pin",
+      "Available in 160mm, 200mm, 250mm, and 300mm lengths",
+      "Hardened and ground pilot surfaces for sub-0.003mm runout",
+      "Full through-coolant compatibility"
+    ],
+    "applications": [
+      "Deep engine block cylinder boring",
+      "Extruder barrel boring",
+      "Heavy gearbox casing reach",
+      "Long hydraulic cylinder machining"
+    ]
+  },
+  {
+    "id": "spot-face-cutter",
+    "slug": "spot-face-cutter",
+    "name": "Spot Face Cutters",
+    "headline": "Indexable Spot Facing & Counterboring Tools for Bolt Seating",
+    "description": "Heavy-duty spot face cutters designed for creating flat, true bearing surfaces around bolt holes on rough castings and uneven weldments.",
+    "metaDescription": "Exporter & Manufacturer of Spot Face Cutter offered by Mamta Tools, Pune, Maharashtra.",
+    "iconName": "Disc",
+    "image": "/images/products/spot-face-cutter/main.jpg",
+    "productCount": 6,
+    "keyFeatures": [
+      "Flat 90° face cutting for perpendicular bolt head seating",
+      "Hardness 30-32 HRC body for shock resistance",
+      "Interchangeable pilot guides available",
+      "Available in all standard metric and imperial diameters"
+    ],
+    "applications": [
+      "Flange bolt head seating",
+      "Engine casing counterboring",
+      "Structural column base bolt facing",
+      "Cast pump body pad machining"
+    ]
+  },
+  {
+    "id": "champer-cutter",
+    "slug": "champer-cutter",
+    "name": "Chamfer Tools & Cutters",
+    "headline": "Indexable 45° Chamfering, Deburring & Beveling Tools",
+    "description": "High-speed indexable chamfer cutters for edge beveling, deburring, and countersinking of holes and plate edges on CNC milling machines.",
+    "metaDescription": "Exporter & Manufacturer of Champer Cutter - Indexable Chamfer Tools offered by Mamta Tools, Pune, Maharashtra.",
+    "iconName": "Wrench",
+    "image": "/images/products/indexable-chamfer-tools-45-degree/main.jpg",
+    "productCount": 6,
+    "keyFeatures": [
+      "45-degree lead angle with indexable carbide inserts",
+      "Available in shank lengths 160mm to 200mm",
+      "Vibration-free edge profiling at high table feed",
+      "Dual-tooth balanced cutting"
+    ],
+    "applications": [
+      "Hole entry chamfering",
+      "Weld preparation beveling",
+      "Deburring machined part perimeter",
+      "Countersinking socket cap screws"
+    ]
+  },
+  {
+    "id": "milling-cutters",
+    "slug": "milling-cutters",
+    "name": "Heavy Shell Milling Cutters",
+    "headline": "TNMG-16 Shell Mill Cutters for Heavy Metal Surface Milling",
+    "description": "Economical shell milling cutter bodies designed to utilize 6-corner TNMG turning inserts for large area surface facing in structural steel.",
+    "metaDescription": "Exporter & Manufacturer of Milling Cutters - TNMG-16 Face Milling Cutter offered by Mamta Tools, Pune, Maharashtra.",
+    "iconName": "Disc",
+    "image": "/images/products/tnmg-16-face-milling-cutter/main.jpg",
+    "productCount": 6,
+    "keyFeatures": [
+      "5-tooth indexable configuration with TNMG-16 inserts",
+      "Shell mill arbor mounting for high torque transfer",
+      "1.0 kg balanced body minimizing spindle vibration",
+      "Exceptional economy per cutting edge"
+    ],
+    "applications": [
+      "Structural plate squaring",
+      "Heavy fabrications facing",
+      "General job shop roughing",
+      "Cast iron baseplate surfacing"
+    ]
+  },
+  {
+    "id": "carbide-inserts",
+    "slug": "carbide-inserts",
+    "name": "Industrial Carbide Inserts",
+    "headline": "PVD & CVD Coated Indexable Carbide Milling & Turning Inserts",
+    "description": "Premium micrograin tungsten carbide inserts with nano-composite PVD coatings (APMT 1135, TNMG, SNMX) for high thermal and wear resistance.",
+    "metaDescription": "Exporter & Manufacturer of Carbide Inserts - APMT 1135 Carbide Insert offered by Mamta Tools, Pune, Maharashtra.",
+    "iconName": "Shield",
+    "image": "/images/products/apmt-1135-carbide-insert-pvd/main.jpg",
+    "productCount": 6,
+    "keyFeatures": [
+      "Advanced PVD multi-layer coating for heat and abrasion resistance",
+      "Precision molded chip breaker for superior chip control",
+      "Corner radius R0.8mm for high surface finish",
+      "Versatile performance in Steel, SS, and Cast Iron"
+    ],
+    "applications": [
+      "CNC shoulder and face milling",
+      "Pocketing and slotting",
+      "Hardened steel milling",
+      "High production mass manufacturing"
+    ]
+  }
+]
