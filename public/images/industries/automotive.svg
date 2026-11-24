@@ -1,6 +1,80 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
-    <rect width="400" height="300" fill="#0f172a" rx="12"/>
-    <circle cx="200" cy="150" r="90" fill="#1e293b" stroke="#334155" stroke-width="2"/>
-    <path d="M 100 160 L 140 120 L 260 120 L 300 160 L 320 160 L 320 190 L 80 190 L 80 160 Z" fill="#f28c28" fill-opacity="0.9" stroke="#fed7aa" stroke-width="2"/>
-    <text x="200" y="270" fill="#f8fafc" font-size="13" font-weight="bold" font-family="sans-serif" text-anchor="middle">AUTOMOTIVE</text>
-  </svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1220" />
+      <stop offset="50%" stop-color="#0e1a2d" />
+      <stop offset="100%" stop-color="#070d17" />
+    </linearGradient>
+    <linearGradient id="metalAcc" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f28c28" />
+      <stop offset="50%" stop-color="#fb923c" />
+      <stop offset="100%" stop-color="#ea580c" />
+    </linearGradient>
+    <linearGradient id="steelGlow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="400" height="240" fill="url(#bgGrad)" rx="14"/>
+
+  <!-- Blueprint Coordinate Grid Lines -->
+  <g stroke="#334155" stroke-opacity="0.3" stroke-width="0.8">
+    <line x1="40" y1="0" x2="40" y2="240" />
+    <line x1="120" y1="0" x2="120" y2="240" />
+    <line x1="200" y1="0" x2="200" y2="240" stroke-dasharray="4 4" stroke-opacity="0.5" />
+    <line x1="280" y1="0" x2="280" y2="240" />
+    <line x1="360" y1="0" x2="360" y2="240" />
+    <line x1="0" y1="60" x2="400" y2="60" />
+    <line x1="0" y1="120" x2="400" y2="120" stroke-dasharray="4 4" stroke-opacity="0.5" />
+    <line x1="0" y1="180" x2="400" y2="180" />
+  </g>
+
+  <!-- Concentric Dial / Metrology Reticle -->
+  <circle cx="200" cy="115" r="75" fill="none" stroke="#475569" stroke-width="1.2" stroke-dasharray="6 4" stroke-opacity="0.4"/>
+  <circle cx="200" cy="115" r="55" fill="none" stroke="#64748b" stroke-width="0.8" stroke-opacity="0.3"/>
+  <circle cx="200" cy="115" r="30" fill="url(#steelGlow)" stroke="#38bdf8" stroke-width="0.8" stroke-opacity="0.4"/>
+
+  <!-- Automotive Engine Block / Transmission Case Schematic -->
+  <!-- Main Crankcase Outline -->
+  <path d="M 110 85 L 140 55 L 260 55 L 290 85 L 305 145 L 285 175 L 115 175 L 95 145 Z" fill="#1e293b" stroke="#64748b" stroke-width="1.8"/>
+  
+  <!-- Cylinder Bores (V8 / Inline Bores) -->
+  <circle cx="150" cy="115" r="22" fill="#0f172a" stroke="url(#metalAcc)" stroke-width="2"/>
+  <circle cx="150" cy="115" r="16" fill="none" stroke="#64748b" stroke-width="1" stroke-dasharray="3 3"/>
+  
+  <circle cx="200" cy="115" r="22" fill="#0f172a" stroke="url(#metalAcc)" stroke-width="2"/>
+  <circle cx="200" cy="115" r="16" fill="none" stroke="#64748b" stroke-width="1" stroke-dasharray="3 3"/>
+  
+  <circle cx="250" cy="115" r="22" fill="#0f172a" stroke="url(#metalAcc)" stroke-width="2"/>
+  <circle cx="250" cy="115" r="16" fill="none" stroke="#64748b" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- Cylinder Head Bolt Pattern Holes -->
+  <circle cx="130" cy="80" r="3" fill="#f28c28"/>
+  <circle cx="170" cy="80" r="3" fill="#f28c28"/>
+  <circle cx="230" cy="80" r="3" fill="#f28c28"/>
+  <circle cx="270" cy="80" r="3" fill="#f28c28"/>
+  <circle cx="130" cy="150" r="3" fill="#f28c28"/>
+  <circle cx="170" cy="150" r="3" fill="#f28c28"/>
+  <circle cx="230" cy="150" r="3" fill="#f28c28"/>
+  <circle cx="270" cy="150" r="3" fill="#f28c28"/>
+
+  <!-- Oil Gallery Passages &amp; Toolpath Vector -->
+  <path d="M 125 115 L 275 115" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="4 2"/>
+  <path d="M 80 115 L 110 115" stroke="#f28c28" stroke-width="1.5"/>
+  <path d="M 290 115 L 320 115" stroke="#f28c28" stroke-width="1.5"/>
+
+  <!-- Dimension Indicator Lines -->
+  <line x1="128" y1="45" x2="272" y2="45" stroke="#94a3b8" stroke-width="1"/>
+  <line x1="128" y1="40" x2="128" y2="50" stroke="#94a3b8" stroke-width="1"/>
+  <line x1="272" y1="40" x2="272" y2="50" stroke="#94a3b8" stroke-width="1"/>
+  <text x="200" y="42" fill="#94a3b8" font-size="9" font-family="monospace" text-anchor="middle">BORE PITCH: 50.00 ±0.005mm</text>
+
+  <!-- Technical Telemetry Badges -->
+  <rect x="20" y="200" width="160" height="24" rx="5" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+  <text x="100" y="216" fill="#f28c28" font-size="10" font-weight="bold" font-family="monospace" text-anchor="middle">MAT: EN24 / 16MnCr5</text>
+
+  <rect x="220" y="200" width="160" height="24" rx="5" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+  <text x="300" y="216" fill="#38bdf8" font-size="10" font-weight="bold" font-family="monospace" text-anchor="middle">POWERTRAIN &amp; ENGINE</text>
+</svg>

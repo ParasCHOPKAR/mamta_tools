@@ -1,6 +1,62 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
-    <rect width="400" height="300" fill="#0f172a" rx="12"/>
-    <circle cx="200" cy="150" r="90" fill="#1e293b" stroke="#334155" stroke-width="2"/>
-    <path d="M 120 100 L 280 100 L 280 200 L 120 200 Z M 150 130 L 250 130 L 230 170 L 170 170 Z" fill="#f28c28" fill-opacity="0.9" stroke="#fed7aa" stroke-width="2"/>
-    <text x="200" y="270" fill="#f8fafc" font-size="13" font-weight="bold" font-family="sans-serif" text-anchor="middle">DIE & MOLD</text>
-  </svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="moldBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1220" />
+      <stop offset="50%" stop-color="#141c2c" />
+      <stop offset="100%" stop-color="#080e18" />
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="240" fill="url(#moldBg)" rx="14"/>
+
+  <!-- Blueprint Coordinate Grid Lines -->
+  <g stroke="#334155" stroke-opacity="0.3" stroke-width="0.8">
+    <line x1="60" y1="0" x2="60" y2="240" />
+    <line x1="130" y1="0" x2="130" y2="240" />
+    <line x1="200" y1="0" x2="200" y2="240" stroke-dasharray="4 4" stroke-opacity="0.5" />
+    <line x1="270" y1="0" x2="270" y2="240" />
+    <line x1="340" y1="0" x2="340" y2="240" />
+    <line x1="0" y1="60" x2="400" y2="60" />
+    <line x1="0" y1="120" x2="400" y2="120" stroke-dasharray="4 4" stroke-opacity="0.5" />
+    <line x1="0" y1="180" x2="400" y2="180" />
+  </g>
+
+  <!-- Heavy Mold Core &amp; Cavity Bolster Block -->
+  <rect x="90" y="55" width="220" height="120" rx="8" fill="#1e293b" stroke="#64748b" stroke-width="1.8"/>
+
+  <!-- Outer Stepped Cavity Pocket -->
+  <rect x="115" y="70" width="170" height="90" rx="6" fill="#0f172a" stroke="#f28c28" stroke-width="1.5"/>
+
+  <!-- Inner High-Feed Contoured Pocket -->
+  <path d="M 135 85 L 265 85 Q 275 115 265 145 L 135 145 Q 125 115 135 85 Z" fill="#070e18" stroke="#38bdf8" stroke-width="1.4"/>
+
+  <!-- Core Ejector Pin &amp; Guide Pillar Holes -->
+  <circle cx="105" cy="65" r="5" fill="#334155" stroke="#94a3b8" stroke-width="1"/>
+  <circle cx="295" cy="65" r="5" fill="#334155" stroke="#94a3b8" stroke-width="1"/>
+  <circle cx="105" cy="165" r="5" fill="#334155" stroke="#94a3b8" stroke-width="1"/>
+  <circle cx="295" cy="165" r="5" fill="#334155" stroke="#94a3b8" stroke-width="1"/>
+
+  <!-- Ejector Pins inside Cavity -->
+  <circle cx="160" cy="115" r="4" fill="#f28c28"/>
+  <circle cx="240" cy="115" r="4" fill="#f28c28"/>
+  <circle cx="200" cy="115" r="6" fill="#0f172a" stroke="#f28c28" stroke-width="1.5"/>
+
+  <!-- 3D Ball Nose Raster Toolpath Lines -->
+  <line x1="145" y1="95" x2="255" y2="95" stroke="#38bdf8" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="140" y1="105" x2="260" y2="105" stroke="#38bdf8" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="140" y1="125" x2="260" y2="125" stroke="#38bdf8" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="145" y1="135" x2="255" y2="135" stroke="#38bdf8" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- Cooling Channel Inlets -->
+  <circle cx="70" cy="115" r="6" fill="#0284c7" stroke="#38bdf8" stroke-width="1"/>
+  <path d="M 76 115 L 90 115" stroke="#38bdf8" stroke-width="2"/>
+  <circle cx="330" cy="115" r="6" fill="#0284c7" stroke="#38bdf8" stroke-width="1"/>
+  <path d="M 310 115 L 324 115" stroke="#38bdf8" stroke-width="2"/>
+
+  <!-- Telemetry Badges -->
+  <rect x="20" y="200" width="160" height="24" rx="5" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+  <text x="100" y="216" fill="#f28c28" font-size="10" font-weight="bold" font-family="monospace" text-anchor="middle">MAT: P20 / H13 / 1.2311</text>
+
+  <rect x="220" y="200" width="160" height="24" rx="5" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+  <text x="300" y="216" fill="#38bdf8" font-size="10" font-weight="bold" font-family="monospace" text-anchor="middle">DIE &amp; MOLD TOOLING</text>
+</svg>

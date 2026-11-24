@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="100%" height="100%">
+  <defs>
+    <radialGradient id="sparkglow" cx="40%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fef08a"/><stop offset="50%" stop-color="#f97316"/><stop offset="100%" stop-color="#0f172a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="300" height="200" fill="#0f172a"/>
+  <!-- Grinding Wheel -->
+  <circle cx="100" cy="100" r="55" fill="#334155" stroke="#64748b" stroke-width="3"/>
+  <circle cx="100" cy="100" r="20" fill="#1e293b"/>
+  <!-- Workpiece Block -->
+  <rect x="145" y="100" width="120" height="50" rx="4" fill="#64748b" stroke="#94a3b8"/>
+  <!-- Spark shower -->
+  <circle cx="150" cy="105" r="35" fill="url(#sparkglow)"/>
+  <g stroke="#fef08a" stroke-width="1.5">
+    <line x1="150" y1="105" x2="230" y2="80"/>
+    <line x1="150" y1="105" x2="250" y2="95"/>
+    <line x1="150" y1="105" x2="270" y2="120"/>
+    <line x1="150" y1="105" x2="240" y2="135"/>
+    <line x1="150" y1="105" x2="210" y2="150"/>
+  </g>
+  <text x="280" y="185" fill="#38bdf8" font-family="monospace" font-size="10" text-anchor="end">&lt; 0.005mm MICRON GROUND</text>
+</svg>

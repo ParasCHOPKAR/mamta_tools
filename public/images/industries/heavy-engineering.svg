@@ -1,6 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
-    <rect width="400" height="300" fill="#0f172a" rx="12"/>
-    <circle cx="200" cy="150" r="90" fill="#1e293b" stroke="#334155" stroke-width="2"/>
-    <path d="M 100 200 L 160 120 L 240 120 L 300 200 Z M 170 140 L 230 140 L 220 180 L 180 180 Z" fill="#f28c28" fill-opacity="0.9" stroke="#fed7aa" stroke-width="2"/>
-    <text x="200" y="270" fill="#f8fafc" font-size="13" font-weight="bold" font-family="sans-serif" text-anchor="middle">HEAVY ENGINEERING</text>
-  </svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="heavyBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1220" />
+      <stop offset="50%" stop-color="#181e28" />
+      <stop offset="100%" stop-color="#090e16" />
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="240" fill="url(#heavyBg)" rx="14"/>
+
+  <!-- Blueprint Coordinate Grid Lines -->
+  <g stroke="#334155" stroke-opacity="0.3" stroke-width="0.8">
+    <line x1="50" y1="0" x2="50" y2="240" />
+    <line x1="120" y1="0" x2="120" y2="240" />
+    <line x1="200" y1="0" x2="200" y2="240" stroke-dasharray="4 4" stroke-opacity="0.5" />
+    <line x1="280" y1="0" x2="280" y2="240" />
+    <line x1="350" y1="0" x2="350" y2="240" />
+    <line x1="0" y1="60" x2="400" y2="60" />
+    <line x1="0" y1="120" x2="400" y2="120" stroke-dasharray="4 4" stroke-opacity="0.5" />
+    <line x1="0" y1="180" x2="400" y2="180" />
+  </g>
+
+  <!-- Heavy Excavator Boom Arm / Earthmoving Pivot Weldment -->
+  <path d="M 80 150 L 120 70 L 280 70 L 320 150 L 290 170 L 110 170 Z" fill="#1e293b" stroke="#64748b" stroke-width="1.8"/>
+
+  <!-- Massive Primary Line-Boring Pivot Eye -->
+  <circle cx="150" cy="120" r="34" fill="#0f172a" stroke="#f28c28" stroke-width="2.2"/>
+  <circle cx="150" cy="120" r="22" fill="#090e16" stroke="#64748b" stroke-width="1.2" stroke-dasharray="4 4"/>
+  <circle cx="150" cy="120" r="10" fill="#f28c28" fill-opacity="0.3"/>
+
+  <!-- Secondary Hydraulic Cylinder Clevis Eye -->
+  <circle cx="250" cy="120" r="24" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+  <circle cx="250" cy="120" r="14" fill="#090e16" stroke="#64748b" stroke-width="1"/>
+
+  <!-- Heavy Weldment Ribs &amp; Gussets -->
+  <line x1="184" y1="70" x2="184" y2="170" stroke="#f28c28" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="216" y1="70" x2="216" y2="170" stroke="#f28c28" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <path d="M 120 70 L 140 100 L 160 70" stroke="#64748b" stroke-width="1.2" fill="none"/>
+  <path d="M 240 70 L 260 100 L 280 70" stroke="#64748b" stroke-width="1.2" fill="none"/>
+
+  <!-- High-Feed Face Mill Sweep Vector -->
+  <path d="M 60 45 L 340 45" stroke="#f28c28" stroke-width="1.8"/>
+  <polygon points="340,41 350,45 340,49" fill="#f28c28"/>
+  <text x="200" y="38" fill="#94a3b8" font-size="9" font-family="monospace" text-anchor="middle">FACING CUTTER SWEEP: Ø250mm AP=6mm</text>
+
+  <!-- Telemetry Badges -->
+  <rect x="20" y="200" width="160" height="24" rx="5" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+  <text x="100" y="216" fill="#f28c28" font-size="10" font-weight="bold" font-family="monospace" text-anchor="middle">MAT: 42CrMo4 / HARDOX</text>
+
+  <rect x="220" y="200" width="160" height="24" rx="5" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+  <text x="300" y="216" fill="#38bdf8" font-size="10" font-weight="bold" font-family="monospace" text-anchor="middle">HEAVY INFRASTRUCTURE</text>
+</svg>

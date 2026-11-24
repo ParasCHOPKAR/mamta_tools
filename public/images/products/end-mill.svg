@@ -14,7 +14,7 @@
   <text x="130" y="132" fill="#94a3b8" font-size="9" text-anchor="middle" font-family="sans-serif">WELDON</text>
   <!-- Cutting Head with Flutes -->
   <path d="M230 115 L320 115 L340 135 L340 165 L320 185 L230 185 Z" fill="url(#emMetal)" stroke="#1e293b" stroke-width="2"/>
-  <!-- Insert 1 & 2 -->
+  <!-- Insert 1 &amp; 2 -->
   <rect x="305" y="112" width="28" height="20" rx="3" fill="url(#emGold)" stroke="#78350f" stroke-width="1.5" transform="rotate(-5 319 122)"/>
   <rect x="305" y="168" width="28" height="20" rx="3" fill="url(#emGold)" stroke="#78350f" stroke-width="1.5" transform="rotate(5 319 178)"/>
   <rect x="260" y="140" width="28" height="20" rx="3" fill="url(#emGold)" stroke="#78350f" stroke-width="1.5"/>

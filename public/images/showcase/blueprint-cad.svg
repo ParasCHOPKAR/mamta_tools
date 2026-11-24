@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bpbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c4a6e"/>
+      <stop offset="100%" stop-color="#075985"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="250" fill="url(#bpbg)"/>
+  <!-- Blueprint Grid -->
+  <g stroke="#38bdf8" stroke-width="0.5" opacity="0.25">
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <rect width="20" height="20" fill="none" stroke="#38bdf8" stroke-width="0.5"/>
+    </pattern>
+    <rect width="400" height="250" fill="url(#grid)"/>
+  </g>
+  <!-- Technical Tool CAD Drawing -->
+  <g stroke="#ffffff" stroke-width="1.8" fill="none">
+    <!-- Cutter Outline -->
+    <path d="M120,60 L280,60 L280,100 L250,120 L250,180 L150,180 L150,120 L120,100 Z"/>
+    <!-- Centerline -->
+    <line x1="200" y1="40" x2="200" y2="200" stroke="#bae6fd" stroke-width="1" stroke-dasharray="8,3,2,3"/>
+    <!-- Insert Pocket Cavities -->
+    <rect x="250" y="70" width="25" height="25" stroke="#facc15" stroke-width="1.5"/>
+    <rect x="125" y="70" width="25" height="25" stroke="#facc15" stroke-width="1.5"/>
+    <!-- Coolant Port Channels -->
+    <line x1="200" y1="180" x2="250" y2="85" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="4,2"/>
+    <line x1="200" y1="180" x2="150" y2="85" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="4,2"/>
+  </g>
+  <!-- Dimension Lines &amp; Arrows -->
+  <g stroke="#facc15" stroke-width="1" fill="#facc15">
+    <line x1="120" y1="45" x2="280" y2="45"/>
+    <line x1="120" y1="40" x2="120" y2="50"/>
+    <line x1="280" y1="40" x2="280" y2="50"/>
+    <text x="200" y="40" fill="#facc15" font-family="monospace" font-size="10" text-anchor="middle">Ø 100.00 ±0.005</text>
+  </g>
+  <text x="30" y="235" fill="#e0f2fe" font-family="monospace" font-size="10">DWG: MT-FM100-EN4 | 24H CAD SLA</text>
+  <text x="380" y="235" fill="#facc15" font-family="monospace" font-size="10" text-anchor="end" font-weight="bold">SOLIDWORKS / STEP</text>
+</svg>

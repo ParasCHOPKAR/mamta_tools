@@ -15,7 +15,7 @@
   <path d="M180 120 L310 120 L335 150 L310 180 L180 180 Z" fill="url(#udMetal)" stroke="#1e293b" stroke-width="2"/>
   <path d="M180 135 Q 240 170 310 135" fill="none" stroke="#1e293b" stroke-width="4"/>
   <path d="M180 165 Q 240 130 310 165" fill="none" stroke="#1e293b" stroke-width="4"/>
-  <!-- Peripheral insert & Central insert -->
+  <!-- Peripheral insert &amp; Central insert -->
   <polygon points="310,120 330,120 330,140 310,135" fill="url(#udGold)" stroke="#78350f" stroke-width="1.5"/>
   <polygon points="318,150 335,150 335,170 318,170" fill="url(#udGold)" stroke="#78350f" stroke-width="1.5"/>
   <!-- Internal coolant streams -->

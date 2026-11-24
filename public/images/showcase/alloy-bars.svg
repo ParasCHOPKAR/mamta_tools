@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bar1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#475569"/><stop offset="35%" stop-color="#f8fafc"/><stop offset="70%" stop-color="#94a3b8"/><stop offset="100%" stop-color="#334155"/>
+    </linearGradient>
+    <linearGradient id="barEnd" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#cbd5e1"/><stop offset="100%" stop-color="#64748b"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="200" fill="#0f172a"/>
+  <!-- Bars Stack -->
+  <g transform="translate(20, 20)">
+    <!-- Bottom row -->
+    <rect x="0" y="100" width="220" height="40" rx="4" fill="url(#bar1)"/>
+    <ellipse cx="220" cy="120" rx="14" ry="20" fill="url(#barEnd)" stroke="#334155"/>
+    <rect x="20" y="70" width="220" height="40" rx="4" fill="url(#bar1)"/>
+    <ellipse cx="240" cy="90" rx="14" ry="20" fill="url(#barEnd)" stroke="#334155"/>
+    <!-- Top Bar -->
+    <rect x="10" y="30" width="220" height="40" rx="4" fill="url(#bar1)"/>
+    <ellipse cx="230" cy="50" rx="14" ry="20" fill="url(#barEnd)" stroke="#334155"/>
+  </g>
+  <text x="280" y="180" fill="#38bdf8" font-family="monospace" font-size="10" text-anchor="end">42CrMo4 / EN24 FORGED</text>
+</svg>

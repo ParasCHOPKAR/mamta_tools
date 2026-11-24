@@ -1,6 +1,60 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
-    <rect width="400" height="300" fill="#0f172a" rx="12"/>
-    <circle cx="200" cy="150" r="90" fill="#1e293b" stroke="#334155" stroke-width="2"/>
-    <path d="M 140 100 L 260 100 L 260 140 L 300 140 L 300 180 L 260 180 L 260 220 L 140 220 L 140 180 L 100 180 L 100 140 L 140 140 Z" fill="#f28c28" fill-opacity="0.9" stroke="#fed7aa" stroke-width="2"/>
-    <text x="200" y="270" fill="#f8fafc" font-size="13" font-weight="bold" font-family="sans-serif" text-anchor="middle">OIL & GAS VALVES</text>
-  </svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="oilBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1220" />
+      <stop offset="50%" stop-color="#111c2e" />
+      <stop offset="100%" stop-color="#080e18" />
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="240" fill="url(#oilBg)" rx="14"/>
+
+  <!-- Blueprint Coordinate Grid Lines -->
+  <g stroke="#334155" stroke-opacity="0.3" stroke-width="0.8">
+    <line x1="50" y1="0" x2="50" y2="240" />
+    <line x1="125" y1="0" x2="125" y2="240" />
+    <line x1="200" y1="0" x2="200" y2="240" stroke-dasharray="4 4" stroke-opacity="0.5" />
+    <line x1="275" y1="0" x2="275" y2="240" />
+    <line x1="350" y1="0" x2="350" y2="240" />
+    <line x1="0" y1="60" x2="400" y2="60" />
+    <line x1="0" y1="120" x2="400" y2="120" stroke-dasharray="4 4" stroke-opacity="0.5" />
+    <line x1="0" y1="180" x2="400" y2="180" />
+  </g>
+
+  <!-- Heavy High-Pressure Valve Body Cross Section -->
+  <path d="M 100 70 L 300 70 L 300 95 L 260 95 L 260 145 L 300 145 L 300 170 L 100 170 L 100 145 L 140 145 L 140 95 L 100 95 Z" fill="#1e293b" stroke="#64748b" stroke-width="1.8"/>
+
+  <!-- Valve Ball Cavity &amp; Flow Channel -->
+  <circle cx="200" cy="120" r="32" fill="#070e18" stroke="#f28c28" stroke-width="2"/>
+  <rect x="140" y="105" width="120" height="30" fill="#070e18" stroke="#38bdf8" stroke-width="1.2" stroke-dasharray="4 2"/>
+
+  <!-- Left Flange Bolt Pattern &amp; Ring Joint Groove -->
+  <line x1="105" y1="75" x2="105" y2="165" stroke="#f28c28" stroke-width="3"/>
+  <circle cx="118" cy="82" r="3.5" fill="#f28c28"/>
+  <circle cx="118" cy="110" r="3.5" fill="#f28c28"/>
+  <circle cx="118" cy="130" r="3.5" fill="#f28c28"/>
+  <circle cx="118" cy="158" r="3.5" fill="#f28c28"/>
+
+  <!-- Right Flange Bolt Pattern &amp; Ring Joint Groove -->
+  <line x1="295" y1="75" x2="295" y2="165" stroke="#f28c28" stroke-width="3"/>
+  <circle cx="282" cy="82" r="3.5" fill="#f28c28"/>
+  <circle cx="282" cy="110" r="3.5" fill="#f28c28"/>
+  <circle cx="282" cy="130" r="3.5" fill="#f28c28"/>
+  <circle cx="282" cy="158" r="3.5" fill="#f28c28"/>
+
+  <!-- Top Bonnet Flange Neck -->
+  <rect x="175" y="45" width="50" height="25" fill="#1e293b" stroke="#64748b" stroke-width="1.5"/>
+  <line x1="165" y1="45" x2="235" y2="45" stroke="#f28c28" stroke-width="2.5"/>
+  <circle cx="180" cy="50" r="3" fill="#f28c28"/>
+  <circle cx="220" cy="50" r="3" fill="#f28c28"/>
+
+  <!-- Dimension Indicator Lines -->
+  <text x="200" y="32" fill="#94a3b8" font-size="9" font-family="monospace" text-anchor="middle">API 6A / 10,000 PSI FLANGE SEAT</text>
+
+  <!-- Telemetry Badges -->
+  <rect x="20" y="200" width="160" height="24" rx="5" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+  <text x="100" y="216" fill="#f28c28" font-size="10" font-weight="bold" font-family="monospace" text-anchor="middle">MAT: DUPLEX / INCONEL 625</text>
+
+  <rect x="220" y="200" width="160" height="24" rx="5" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+  <text x="300" y="216" fill="#38bdf8" font-size="10" font-weight="bold" font-family="monospace" text-anchor="middle">OIL &amp; GAS FLOW VALVES</text>
+</svg>
